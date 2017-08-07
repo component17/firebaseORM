@@ -1,18 +1,13 @@
 import firebase from 'firebase';
 import Vue from 'vue';
-export class model {
+export class moModeldel {
     constructor(fields, table) {
         this.db = window.firebase;
         this.app = Vue;
         if (!firebase.apps.length) {
 
             firebase.initializeApp({
-                apiKey: "AIzaSyDu2mak7UuUsaPMYcP24mIBJLZG7lI8Dc4",
-                authDomain: "erphub-433f3.firebaseapp.com",
-                databaseURL: "https://erphub-433f3.firebaseio.com",
-                projectId: "erphub-433f3",
-                storageBucket: "erphub-433f3.appspot.com",
-                messagingSenderId: "364380267705"
+
             });
         }
 
